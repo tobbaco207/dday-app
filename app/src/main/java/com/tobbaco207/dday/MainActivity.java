@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 
         // Google official test banner ID
         adView.setAdUnitId(
-            "ca-app-pub-3349558183751975/8617928362"
+            "ca-app-pub-3940256099942544/6300978111"
         );
 
         layout.addView(adView,
