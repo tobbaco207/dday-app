@@ -42,7 +42,7 @@ document.getElementById('name').value='';
 document.getElementById('date').value='';
 }
 function removeEvent(i){
-if(confirm('삭제할까요?')){events.splice(i,1);save();render()}
+events.splice(i,1);save();render();
 }
 function render(){
 const list=document.getElementById('list');
